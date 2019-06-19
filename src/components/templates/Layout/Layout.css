@@ -1,0 +1,61 @@
+nav {
+  cursor: pointer;
+  padding: 8px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.container--deeper {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+/* header */
+header {
+  border-bottom: 2px solid black;
+}
+
+header a {
+  text-decoration: none;
+  color: blue;
+}
+
+.container--header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .brand {
+  min-width: 110px;
+  padding: 8px;
+}
+header .brand a {
+  color: black;
+}
+
+header .navbar {
+  display: flex;
+  padding: 8px;
+}
+
+/* body */
+.layout-body {
+  height: calc(100% - 55px);
+}
+
+.layout-body section {
+  margin-bottom: 32px;
+}
+
+/* footer */
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
